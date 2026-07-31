@@ -1,0 +1,7 @@
+[
+  {"id":"workout-a","name":"Workout A","subtitle":"Síla spodní poloviny těla","theme":"purple","sections":[{"area":"glutes","count":3},{"area":"hamstrings","count":2},{"area":"quads","count":2},{"area":"core","count":1},{"area":"hipMobility","count":1}]},
+  {"id":"workout-b","name":"Workout B","subtitle":"Horní část těla + držení těla","theme":"blue","sections":[{"area":"back","count":3},{"area":"shoulders","count":2},{"area":"arms","count":2},{"area":"chest","count":1},{"area":"core","count":1}]},
+  {"id":"workout-c","name":"Workout C","subtitle":"Funkční celé tělo","theme":"green","sections":[{"area":"glutes","count":2},{"area":"back","count":2},{"area":"core","count":1},{"area":"stability","count":1},{"area":"balance","count":1},{"area":"coordination","count":1}]},
+  {"id":"hiking","name":"Hiking","subtitle":"Krátký doplněk pro turistiku","theme":"orange","sections":[{"area":"hipMobility","count":1},{"area":"core","count":1},{"area":"stability","count":1},{"area":"ankles","count":1},{"area":"glutes","count":1}]},
+  {"id":"micro","name":"Micro Workout","subtitle":"15–20 minut doma","theme":"pink","fixedLocation":"home","sections":[{"area":"glutes","count":1},{"area":"back","count":1},{"area":"core","count":1},{"area":"hipMobility","count":1}]}
+]
