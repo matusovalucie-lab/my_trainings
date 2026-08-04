@@ -1,0 +1,1251 @@
+[
+  {
+    "id": "side_plank",
+    "cs": "Boční plank",
+    "en": "Side Plank",
+    "primary": "core",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 3,
+    "reps": "25–40 s / strana"
+  },
+  {
+    "id": "suitcase_carry",
+    "cs": "Suitcase Carry",
+    "en": "Suitcase Carry",
+    "primary": "core",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručka",
+      "kettlebell"
+    ],
+    "sets": 3,
+    "reps": "30–40 m / strana"
+  },
+  {
+    "id": "woodchopper",
+    "cs": "Woodchopper",
+    "en": "Woodchopper",
+    "primary": "core",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "guma",
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "10–12 / strana"
+  },
+  {
+    "id": "dead_bug",
+    "cs": "Mrtvý brouk",
+    "en": "Dead Bug",
+    "primary": "core",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 3,
+    "reps": "8–10 / strana"
+  },
+  {
+    "id": "pallof",
+    "cs": "Pallof Press",
+    "en": "Pallof Press",
+    "primary": "core",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "guma",
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "10–12 / strana"
+  },
+  {
+    "id": "plank",
+    "cs": "Prkno",
+    "en": "Plank",
+    "primary": "core",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 3,
+    "reps": "30–45 s"
+  },
+  {
+    "id": "russian_twist",
+    "cs": "Russian Twist",
+    "en": "Russian Twist",
+    "primary": "core",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek",
+      "míč"
+    ],
+    "sets": 3,
+    "reps": "10–16 / strana"
+  },
+  {
+    "id": "push_up",
+    "cs": "Kliky",
+    "en": "Push-up",
+    "primary": "chest",
+    "secondary": [
+      "arms",
+      "core"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 3,
+    "reps": "6–15"
+  },
+  {
+    "id": "incline_push_up",
+    "cs": "Kliky o vyvýšenou oporu",
+    "en": "Incline Push-up",
+    "primary": "chest",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "lavice",
+      "stůl"
+    ],
+    "sets": 3,
+    "reps": "8–15"
+  },
+  {
+    "id": "dumbbell_fly",
+    "cs": "Rozpažování s jednoručkami",
+    "en": "Dumbbell Flyes",
+    "primary": "chest",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručky",
+      "lavice"
+    ],
+    "sets": 3,
+    "reps": "10–15"
+  },
+  {
+    "id": "chest_press",
+    "cs": "Chest Press",
+    "en": "Chest Press",
+    "primary": "chest",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "dumbbell_press",
+    "cs": "Tlaky s jednoručkami na nakloněné lavici / vleže",
+    "en": "Dumbbell Press",
+    "primary": "chest",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručky"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "bench_press",
+    "cs": "Bench press",
+    "en": "Bench press",
+    "primary": "chest",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "hip_abduction",
+    "cs": "Hip Abduction",
+    "en": "Hip Abduction",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "guma",
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "band_abduction",
+    "cs": "Abdukce s gumou",
+    "en": "Band Hip Abduction",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "odporová guma"
+    ],
+    "sets": 3,
+    "reps": "12–20"
+  },
+  {
+    "id": "ball_abduction",
+    "cs": "Abdukce s míčem",
+    "en": "Ball Hip Abduction",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "míč"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "hip_adduction",
+    "cs": "Hip Adduction",
+    "en": "Hip Adduction",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "míč",
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "side_lunge",
+    "cs": "Boční výpad",
+    "en": "Side Lunge",
+    "primary": "glutes",
+    "secondary": [
+      "quads"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 3,
+    "reps": "8–10 / strana"
+  },
+  {
+    "id": "bulgarian_split",
+    "cs": "Bulharský dřep",
+    "en": "Bulgarian Split Squat",
+    "primary": "glutes",
+    "secondary": [
+      "quads"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "lavička, jednoručky volitelně"
+    ],
+    "sets": 3,
+    "reps": "8–10 / noha"
+  },
+  {
+    "id": "walking_lunge",
+    "cs": "Chůze ve výpadech",
+    "en": "Walking Lunges",
+    "primary": "glutes",
+    "secondary": [
+      "quads"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek",
+      "jednoručky"
+    ],
+    "sets": 3,
+    "reps": "10–16 kroků"
+  },
+  {
+    "id": "glute_bridge",
+    "cs": "Glute Bridge",
+    "en": "Glute Bridge",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "forward_lunge",
+    "cs": "Výpad vpřed",
+    "en": "Forward Lunge",
+    "primary": "glutes",
+    "secondary": [
+      "quads"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek",
+      "jednoručky"
+    ],
+    "sets": 3,
+    "reps": "8–10 / noha"
+  },
+  {
+    "id": "reverse_lunge",
+    "cs": "Výpad vzad",
+    "en": "Reverse Lunge",
+    "primary": "glutes",
+    "secondary": [
+      "quads"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek",
+      "jednoručky"
+    ],
+    "sets": 3,
+    "reps": "8–10 / noha"
+  },
+  {
+    "id": "step_up",
+    "cs": "Výstupy na lavičku",
+    "en": "Step Up",
+    "primary": "glutes",
+    "secondary": [
+      "quads"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "lavička"
+    ],
+    "sets": 3,
+    "reps": "8–10 / noha"
+  },
+  {
+    "id": "cable_kickback",
+    "cs": "Zanožování na kladce",
+    "en": "Cable Kickback",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "12–15 / noha"
+  },
+  {
+    "id": "glute_drive",
+    "cs": "Hip Thrust na stroji",
+    "en": "Glute Drive",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "8–10"
+  },
+  {
+    "id": "hip_thrust",
+    "cs": "Hip Thrust s osou",
+    "en": "Hip Thrust",
+    "primary": "glutes",
+    "secondary": [
+      "hamstrings"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "osa",
+      "jednoručka"
+    ],
+    "sets": 3,
+    "reps": "8–10"
+  },
+  {
+    "id": "frog_pump",
+    "cs": "Frog Pumps",
+    "en": "Frog Pumps",
+    "primary": "glutes",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 3,
+    "reps": "15–20"
+  },
+  {
+    "id": "lateral_step_pattern",
+    "cs": "Lateral Step Up",
+    "en": "Lateral Step Up",
+    "primary": "coordination",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek",
+      "guma"
+    ],
+    "sets": 3,
+    "reps": "30–45 s"
+  },
+  {
+    "id": "cross_crawl",
+    "cs": "Cross Crawl",
+    "en": "Cross Crawl",
+    "primary": "coordination",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 3,
+    "reps": "30–45 s"
+  },
+  {
+    "id": "bear_crawl",
+    "cs": "Medvědí chůze",
+    "en": "Bear Crawl",
+    "primary": "coordination",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 3,
+    "reps": "20–30 s"
+  },
+  {
+    "id": "ankle_mobility",
+    "cs": "Mobilita kotníku u stěny",
+    "en": "Wall Ankle Mobility",
+    "primary": "ankles",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "stěna"
+    ],
+    "sets": 2,
+    "reps": "8–10 / strana"
+  },
+  {
+    "id": "calf_raise",
+    "cs": "Výpony lýtek",
+    "en": "Calf Raise",
+    "primary": "ankles",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "schod volitelně"
+    ],
+    "sets": 3,
+    "reps": "12–20"
+  },
+  {
+    "id": "tibialis_raise",
+    "cs": "Zvedání špiček",
+    "en": "Tibialis Raise",
+    "primary": "ankles",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "stěna"
+    ],
+    "sets": 3,
+    "reps": "12–20"
+  },
+  {
+    "id": "cossack_mobility",
+    "cs": "Cossack Squat Mobility",
+    "en": "Cossack Squat Mobility",
+    "primary": "hipMobility",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 2,
+    "reps": "6–8 / strana"
+  },
+  {
+    "id": "adductor_rockback",
+    "cs": "Mobilizace adduktorů v kleku",
+    "en": "Adductor Rockback",
+    "primary": "hipMobility",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 2,
+    "reps": "8–10 / strana"
+  },
+  {
+    "id": "hip_90_90",
+    "cs": "90/90 Hip Mobility",
+    "en": "90/90 Hip Mobility",
+    "primary": "hipMobility",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 2,
+    "reps": "6–8 / strana"
+  },
+  {
+    "id": "hip_flexor_stretch",
+    "cs": "Hip Flexor Stretch",
+    "en": "Hip Flexor Stretch",
+    "primary": "hipMobility",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "podložka"
+    ],
+    "sets": 2,
+    "reps": "30–45 s / strana"
+  },
+  {
+    "id": "biceps_curl",
+    "cs": "Biceps Curl",
+    "en": "Biceps Curl",
+    "primary": "arms",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručky",
+      "osa"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "hammer_curl",
+    "cs": "Hammer Curl",
+    "en": "Hammer Curl",
+    "primary": "arms",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručky"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "triceps_pushdown",
+    "cs": "Stahování kladky na triceps",
+    "en": "Triceps Pushdown",
+    "primary": "arms",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "triceps_dips",
+    "cs": "Tricepsové kliky na lavičce",
+    "en": "Triceps Dips",
+    "primary": "arms",
+    "secondary": [
+      "chest"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "lavička"
+    ],
+    "sets": 3,
+    "reps": "8–15"
+  },
+  {
+    "id": "overhead_triceps",
+    "cs": "Tricepsový tlak nad hlavou",
+    "en": "Overhead Triceps Extension",
+    "primary": "arms",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručka",
+      "lano"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "split_squat",
+    "cs": "Split dřep",
+    "en": "Split Squat",
+    "primary": "quads",
+    "secondary": [
+      "glutes"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek",
+      "jednoručky"
+    ],
+    "sets": 3,
+    "reps": "8–10 / noha"
+  },
+  {
+    "id": "goblet_squat",
+    "cs": "Goblet Squat",
+    "en": "Goblet Squat",
+    "primary": "quads",
+    "secondary": [
+      "glutes"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručka",
+      "kettlebell"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "hack_squat",
+    "cs": "Hack Squat",
+    "en": "Hack Squat",
+    "primary": "quads",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "leg_extension",
+    "cs": "Předkopávání",
+    "en": "Leg Extension",
+    "primary": "quads",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "10–15"
+  },
+  {
+    "id": "band_leg_extension",
+    "cs": "Předkopávání s gumou",
+    "en": "Band Leg Extension",
+    "primary": "quads",
+    "secondary": [],
+    "locations": [
+      "home"
+    ],
+    "equipment": [
+      "odporová guma"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "sissy_squat",
+    "cs": "Sissy dřep",
+    "en": "Sissy Squat",
+    "primary": "quads",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "opora volitelně"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "leg_press",
+    "cs": "Leg Press",
+    "en": "Leg Press",
+    "primary": "quads",
+    "secondary": [
+      "glutes"
+    ],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "wall_slide",
+    "cs": "Wall Slide",
+    "en": "Wall Slide",
+    "primary": "shoulders",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "stěna"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "reverse_fly",
+    "cs": "Obrácené rozpažování",
+    "en": "Reverse Fly",
+    "primary": "shoulders",
+    "secondary": [
+      "back"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručky",
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "10–15"
+  },
+  {
+    "id": "y_raise",
+    "cs": "Zdvih paží do Y",
+    "en": "Y Raise",
+    "primary": "shoulders",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "lehké jednoručky",
+      "guma"
+    ],
+    "sets": 3,
+    "reps": "10–15"
+  },
+  {
+    "id": "external_rotation",
+    "cs": "Zevní rotace ramene",
+    "en": "External Rotation",
+    "primary": "shoulders",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "guma",
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "tandem_walk",
+    "cs": "Chůze pata–špička",
+    "en": "Heel-to-Toe Walk",
+    "primary": "balance",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 3,
+    "reps": "10–15 kroků"
+  },
+  {
+    "id": "single_leg_reach",
+    "cs": "Single Leg Reach",
+    "en": "Single Leg Reach",
+    "primary": "balance",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 3,
+    "reps": "6–8 / směr"
+  },
+  {
+    "id": "balance_pad",
+    "cs": "Stoj na balanční podložce",
+    "en": "Balance Pad Stand",
+    "primary": "balance",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "balanční podložka"
+    ],
+    "sets": 3,
+    "reps": "30–45 s"
+  },
+  {
+    "id": "single_rdl_balance",
+    "cs": "Single Leg RDL Reach",
+    "en": "Single Leg RDL Reach",
+    "primary": "stability",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek",
+      "jednoručka"
+    ],
+    "sets": 3,
+    "reps": "8 / noha"
+  },
+  {
+    "id": "step_down_control",
+    "cs": "Controlled Step Down",
+    "en": "Controlled Step Down",
+    "primary": "stability",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "schod",
+      "lavička"
+    ],
+    "sets": 3,
+    "reps": "8–10 / noha"
+  },
+  {
+    "id": "single_balance",
+    "cs": "Stoj na jedné noze",
+    "en": "Single Leg Balance",
+    "primary": "stability",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bez pomůcek"
+    ],
+    "sets": 3,
+    "reps": "30–45 s / noha"
+  },
+  {
+    "id": "pullover",
+    "cs": "Pullover",
+    "en": "Pullover",
+    "primary": "back",
+    "secondary": [
+      "chest"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručka",
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "one_arm_row",
+    "cs": "Přítah jednoručky",
+    "en": "One Arm Row",
+    "primary": "back",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "jednoručka"
+    ],
+    "sets": 3,
+    "reps": "8–12 / strana"
+  },
+  {
+    "id": "band_row",
+    "cs": "Přítahy gumy",
+    "en": "Band Row",
+    "primary": "back",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "odporová guma"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "face_pull",
+    "cs": "Face Pull",
+    "en": "Face Pull",
+    "primary": "back",
+    "secondary": [
+      "shoulders"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "kladka",
+      "guma"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "trx_row",
+    "cs": "Přítahy na TRX",
+    "en": "TRX Row",
+    "primary": "back",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "TRX"
+    ],
+    "sets": 3,
+    "reps": "8–15"
+  },
+  {
+    "id": "chest_row",
+    "cs": "Přítahy s oporou hrudníku",
+    "en": "Chest Supported Row",
+    "primary": "back",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "lavice",
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "seated_row",
+    "cs": "Seated Row",
+    "en": "Seated Row",
+    "primary": "back",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "lat_pulldown",
+    "cs": "Stahování horní kladky",
+    "en": "Lat Pulldown",
+    "primary": "back",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "kladka"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "hyperextension",
+    "cs": "Hyperextenze",
+    "en": "Hyperextensions",
+    "primary": "hamstrings",
+    "secondary": [
+      "back",
+      "glutes"
+    ],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "lavice"
+    ],
+    "sets": 3,
+    "reps": "10–15"
+  },
+  {
+    "id": "good_morning",
+    "cs": "Předklon s osou",
+    "en": "Good Morning",
+    "primary": "hamstrings",
+    "secondary": [
+      "back"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "osa",
+      "guma"
+    ],
+    "sets": 3,
+    "reps": "8–12"
+  },
+  {
+    "id": "rdl",
+    "cs": "Rumunský mrtvý tah",
+    "en": "Romanian Deadlift",
+    "primary": "hamstrings",
+    "secondary": [
+      "glutes"
+    ],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "osa",
+      "jednoručky"
+    ],
+    "sets": 3,
+    "reps": "8–10"
+  },
+  {
+    "id": "ball_curl",
+    "cs": "Zakopávání na míči",
+    "en": "Swiss Ball Leg Curl",
+    "primary": "hamstrings",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "velký míč"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "band_curl",
+    "cs": "Zakopávání s gumou",
+    "en": "Band Leg Curl",
+    "primary": "hamstrings",
+    "secondary": [],
+    "locations": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "odporová guma"
+    ],
+    "sets": 3,
+    "reps": "12–15"
+  },
+  {
+    "id": "leg_curl_lying",
+    "cs": "Zakopávání vleže",
+    "en": "Lying Leg Curl",
+    "primary": "hamstrings",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  },
+  {
+    "id": "leg_curl_seated",
+    "cs": "Zakopávání vsedě",
+    "en": "Seated Leg Curl",
+    "primary": "hamstrings",
+    "secondary": [],
+    "locations": [
+      "gym"
+    ],
+    "equipment": [
+      "stroj"
+    ],
+    "sets": 3,
+    "reps": "10–12"
+  }
+]
