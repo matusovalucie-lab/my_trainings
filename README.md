@@ -10,3 +10,4 @@ Kompletní statická PWA připravená pro GitHub Pages.
 - `data/settings.json` – základní nastavení aplikace
 
 Nahraj celý obsah této složky do kořene repozitáře. Zachovej podsložky `data/` a `icons/`.
+deployment refresh
