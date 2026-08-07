@@ -1,5 +1,5 @@
 const STORAGE_KEY = "my-trainings-state-v5";
-let SETTINGS = { language: "cs", defaultLocation: "gym", weightUnit: "kg", version: "0.6.0-alpha.5" };
+let SETTINGS = { language: "cs", defaultLocation: "gym", weightUnit: "kg", version: "0.6.0-alpha.6" };
 const LEGACY_KEY = "my-trainings-v4";
 
 let WORKOUTS = [];
@@ -110,6 +110,14 @@ function builderComplete(workoutId, location) {
   return workout.sections.every(section => Array.from({ length: section.count }, (_, i) => Boolean(selectedFor(workoutId, location, section.area)[i])).every(Boolean));
 }
 
+function lastSavedExercise(sourceId) {
+  for (const session of state.history) {
+    const exercise = session.exercises?.find(ex => ex.sourceId === sourceId);
+    if (exercise) return exercise;
+  }
+  return null;
+}
+
 function startWorkout() {
   const workout = workoutById(route.workoutId);
   const selections = getSelections(route.workoutId, route.location);
@@ -117,10 +125,17 @@ function startWorkout() {
   workout.sections.forEach(section => {
     (selections[section.area] || []).slice(0, section.count).forEach(sourceId => {
       const source = exerciseById(sourceId); if (!source) return;
+      const previous = lastSavedExercise(source.id);
       exercises.push({
         id: crypto.randomUUID(), sourceId: source.id, cs: source.cs, en: source.en, area: source.primary,
         target: source.reps, status: "waiting",
-        sets: Array.from({ length: source.sets }, (_, i) => ({ id: crypto.randomUUID(), number: i + 1, weight: "", reps: "", completed: false }))
+        sets: Array.from({ length: source.sets }, (_, i) => ({
+          id: crypto.randomUUID(),
+          number: i + 1,
+          weight: previous?.sets?.[i]?.weight ?? "",
+          reps: previous?.sets?.[i]?.reps ?? "",
+          completed: false
+        }))
       });
     });
   });
@@ -266,6 +281,20 @@ function finishWorkout() {
   navigate("history");
 }
 
+function deleteHistoryWorkout(historyId) {
+  const session = state.history.find(item => item.id === historyId);
+  if (!session) return;
+
+  const date = new Date(session.completedAt || session.startedAt)
+    .toLocaleDateString("cs-CZ", { day: "numeric", month: "long", year: "numeric" });
+
+  if (!window.confirm(`Smazat ${session.workoutName} z ${date}?`)) return;
+
+  state.history = state.history.filter(item => item.id !== historyId);
+  saveState();
+  navigate("history");
+}
+
 function header(title, back = null, subtitle = "") {
   const showBack = route.screen !== "home";
   return `<header class="header">${showBack ? `<button class="back" data-action="back" aria-label="Zpět">←</button>` : `<span class="header-spacer"></span>`}<div class="header-copy"><h1>${title}</h1>${subtitle ? `<p>${subtitle}</p>` : ""}</div><span class="header-spacer"></span></header>`;
@@ -377,7 +406,9 @@ function historyScreen() {
 }
 function historyDetailScreen() {
   const s = state.history.find(h => h.id === route.historyId); if (!s) return historyScreen();
-  return `${header(s.workoutName, "history", new Date(s.completedAt || s.startedAt).toLocaleDateString("cs-CZ", { day:"numeric", month:"long", year:"numeric" }))}<div class="history-exercises">${s.exercises.map(ex => `<section class="history-exercise"><h3>${ex.cs || ex.name}</h3>${ex.en ? `<p>(${ex.en})</p>` : ""}<div>${ex.sets.map(set => `<span>${set.weight || "—"} kg × ${set.reps || "—"}</span>`).join("")}</div></section>`).join("")}</div>`;
+  return `${header(s.workoutName, "history", new Date(s.completedAt || s.startedAt).toLocaleDateString("cs-CZ", { day:"numeric", month:"long", year:"numeric" }))}
+  <div class="history-exercises">${s.exercises.map(ex => `<section class="history-exercise"><h3>${ex.cs || ex.name}</h3>${ex.en ? `<p>(${ex.en})</p>` : ""}<div>${ex.sets.map(set => `<span>${set.weight || "—"} kg × ${set.reps || "—"}</span>`).join("")}</div></section>`).join("")}</div>
+  <button data-delete-history="${s.id}" style="width:100%;margin-top:14px;border:0;border-radius:14px;padding:13px 15px;background:#f2e5e5;color:#833f3f;font-weight:750;">Smazat trénink</button>`;
 }
 function catalogScreen() {
   return `${header("Cviky", "home", "Český název a anglický název v závorce.")}<div class="catalog">${Object.entries(AREAS).map(([id, meta]) => {
@@ -400,6 +431,7 @@ function bindEvents() {
   document.querySelectorAll("[data-complete]").forEach(b => b.onclick = () => { const [ex, set] = b.dataset.complete.split(":"); toggleSet(ex, set); });
   document.querySelectorAll("[data-set]").forEach(i => i.onchange = () => { const [ex, set, field] = i.dataset.set.split(":"); updateSet(ex, set, field, i.value); });
   document.querySelectorAll("[data-history]").forEach(b => b.onclick = () => navigate("historyDetail", { historyId: b.dataset.history }));
+  document.querySelectorAll("[data-delete-history]").forEach(b => b.onclick = () => deleteHistoryWorkout(b.dataset.deleteHistory));
   document.querySelectorAll("[data-return-exercise]").forEach(b => b.onclick = () => activateExercise(Number(b.dataset.returnExercise)));
   document.querySelectorAll("[data-jump-exercise]").forEach(b => b.onclick = () => activateExercise(Number(b.dataset.jumpExercise)));
   document.querySelectorAll("[data-action]").forEach(b => b.onclick = () => {
