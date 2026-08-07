@@ -9,13 +9,13 @@
   <meta name="apple-mobile-web-app-title" content="My Trainings" />
   <meta name="description" content="Osobní tréninkový deník s pevnou strukturou workoutů." />
   <link rel="manifest" href="./manifest.webmanifest" />
-  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
-  <link rel="stylesheet" href="./styles.css?v=0.6.0-alpha.2" />
+  <link rel="apple-touch-icon" href="./icon-192.png" />
+  <link rel="stylesheet" href="./styles.css?v=0.6.0-alpha.6" />
   <title>My Trainings</title>
 </head>
 <body>
-  <div id="app" aria-live="polite"></div>
+  <div id="app" aria-live="polite"><div style="padding:30px;text-align:center;color:#77726b">Načítám…</div></div>
   <noscript>Pro spuštění aplikace je potřeba povolit JavaScript.</noscript>
-  <script type="module" src="./app.js?v=0.6.0-alpha.2"></script>
+  <script type="module" src="./app.js?v=0.6.0-alpha.6" onerror="document.querySelector('#app').innerHTML='<div style=&quot;padding:30px;text-align:center;color:#77726b&quot;>Aplikaci se nepodařilo spustit. Obnov stránku po nasazení všech souborů.</div>'"></script>
 </body>
 </html>

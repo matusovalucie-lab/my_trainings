@@ -1,16 +1,16 @@
-const CACHE = "my-trainings-v0.6.0-alpha.5";
+const CACHE = "my-trainings-v0.6.0-alpha.6";
 const ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=0.6.0-alpha.4",
-  "./app.js?v=0.6.0-alpha.5",
+  "./styles.css?v=0.6.0-alpha.6",
+  "./app.js?v=0.6.0-alpha.6",
   "./manifest.webmanifest",
   "./data/workouts.json",
   "./data/areas.json",
   "./data/exercises.json",
   "./data/settings.json",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png"
+  "./icon-192.png",
+  "./icon-512.png"
 ];
 
 self.addEventListener("install", event => {
@@ -27,7 +27,6 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
-
   event.respondWith(
     fetch(event.request)
       .then(response => {
